@@ -1,0 +1,310 @@
+*{ 
+    margin: 0;
+    padding :0;    
+    
+}
+.entete {  display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 165px;
+    padding-left: 165px;   
+    background-color:rgb(255, 255, 255);
+    position:sticky;
+    top: 0;
+   /* box-shadow: 1px 1px 6px rgb(219, 219, 219); */
+}
+
+.entete1 > ul{
+    display :flex;
+    justify-content: space-around;   
+    
+}
+.entete1 li{
+    margin: 10px;
+    padding: 0px; 
+    list-style: none;  
+}
+.entete1 :hover{
+    color:rgb(0, 195, 165);
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    width:1100px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.para1{    
+    height:auto;
+    width: 600px;
+    padding-right: 40px;
+    padding-left: 40px; 
+    color: gray;     
+    
+}
+.para2{  
+    height:auto;
+    width: 600px;
+    padding-right: 30px;   
+    color: gray;
+}
+.blocs{
+    width: 1200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.blocs1{
+    display: block;
+    color: white;
+    background-color: rgb(0, 204, 177);
+    height: 300px;
+    width: 270px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:10px;
+    font-size: 30px;
+}
+.blocs2{
+    display: block;
+    color: white;
+    background-color:rgb(69, 136, 224);
+    height: 300px;
+    width: 270px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:10px;
+    font-size: 30px;
+}
+
+.blocs3{
+    display: block;
+    background-color:rgb(36, 47, 60);
+    color: white;
+    height: 300px;
+    padding-top: 20px;
+    width: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:10px;
+    font-size: 30px;
+}
+.enteteliste ul li a {
+    display: block;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.enteteliste{
+    display: none;
+    position: absolute;
+
+}
+
+#drop:hover  .enteteliste{
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 6px rgb(219, 219, 219);
+
+}
+
+.entete1 a {
+    text-decoration: none;
+}
+.enteteliste ul li a:hover{
+    color: gray;
+    background-color: rgb(240, 231, 240);
+}
+.ordre{
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+.ordre1{
+    color:rgb(0, 204, 177);
+    width: 350px;
+    font-size: 25px;
+    padding-left: 70px;
+    flex-wrap: wrap;
+}
+.ordre2{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+
+}
+.i1 {
+    width: 140px;
+    height:40px;
+    background: url("../img/znany.png") no-repeat ;
+   
+}
+
+.i1:hover {
+    background:  url("../img/znanyvert.png")  no-repeat ;
+  
+}
+.i2 {
+    width: 140px;
+    height:40px;
+    background: url("../img/doctoria.png") no-repeat;
+   
+}
+
+.i2:hover {
+    background: url("../img/doctoriavert.png") no-repeat;
+}
+.i3 {
+    width: 140px;
+    height:40px;
+    background: url("../img/miodottore.png") no-repeat;
+   
+}
+
+.i3:hover {
+    background: url("../img/miodottorevert.png") no-repeat;
+}
+.i4 {
+    width: 140px;
+    height:40px;
+    background: url("../img/doktor.png") no-repeat;
+   
+}
+
+.i4:hover {
+    background: url("../img/doktorvert.png") no-repeat;
+}
+.i5 {
+    width: 140px;
+    height:40px;
+    background: url("../img/znamy.png") no-repeat;
+   
+}
+
+.i5:hover {
+    background: url("../img/znamyvert.png") no-repeat;
+}
+.i6 {
+    width: 140px;
+    height:40px;
+    background: url("../img/tutemp.png") no-repeat;
+   
+}
+
+.i6:hover {
+    background: url("../img/tutempvert.png") no-repeat;
+}
+.i7 {
+    width: 140px;
+    height:40px;
+    background: url("../img/gipo.png") no-repeat;
+   
+}
+
+.i7:hover {
+    background: url("../img/gipovert.png") no-repeat;
+}
+.i8 {
+    width: 140px;
+    height:40px;
+    background: url("../img/clinicloud.png") no-repeat;
+   
+}
+
+.i8:hover {
+    background: url("../img/clinicloudvert.png") no-repeat;
+}
+.biggest{
+    height: 600px;
+    background-color: rgb(214,246,246);
+    margin-bottom: 60px;
+}
+#loger{
+    margin-top: 130px;
+    margin-left: 230px;
+}
+#loger2{
+    
+   position: relative;
+   
+}
+.biggest-para{
+    display: block;
+    height: 80px;
+    width: 450px;
+    margin-top: 70px;
+    padding-top: 40px;
+    margin-left:300px;
+ 
+    font-size: xx-large;
+  
+}
+.biggest-para :nth-child(1){
+    color:rgb(0, 204, 177) ;
+    padding-bottom: 20px;
+}
+.biggest-para :nth-child(2){
+   
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.img_pays{
+    display: flex;  
+    justify-content: space-evenly;  
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+   
+}
+.img_pays1{
+    display: block;  
+    height: auto;
+    width: auto;     
+    margin-bottom: 40px;
+}
+.img_pays1-1{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+  
+   
+}
+.img_pays1-1 button :hover{
+    background-color: rgb(12, 88, 133);
+    color: rgb(255, 255, 255);
+}
+
+.img_pays1-1 button{
+    background-color: rgb(12, 88, 133);
+    color: rgb(244, 245, 250);
+    height: 25px;
+    width: 120px;
+    border-radius: 3px;
+}
+.img_pays :hover {
+    background-color:rgb(248, 246, 246);  
+   
+
+}  
